@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    left: 0; right: 0;
+    gap: 50px;
+    position: fixed;
+    padding: 20px;
+    z-index: 1000;
+    background-color:orange;
+}
+header .logo img{
+    width: auto;
+    height: 20px;
+    object-fit: cover;
+}
+header .navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header .navbar a{
+    color: #1b1b1b;
+    transition: 0.2s;
+    font-size: 1em;
+    font-weight: bold;
+}
+header .navbar a:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+section{
+    width: 100%;
+}
+.et{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    position: relative;
+    height: auto;
+}
+.et h1{
+    font-family: Impact;
+    font-size: 40pt;
+    color: #1b1b1b;
+    margin-top: 50px;
+}
+.et p{
+    position: relative;
+    font-size: 12pt;
+}
+
+.cta{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.cta a p{
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 10pt;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.cta .Contact p{
+    background: transparent;
+    border: 2px solid #1b1b1b;
+    color: #1b1b1b;
+}
+.image{
+    padding: 70px 50px 10px 200px;
+}
+.image img{
+    width: 200px;
+    height: auto;
+    background-color: #1b1b1b;
+    padding: 75px;
+    border-radius: 60px;
+}
+
+.logo_bar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 95, 255);
+    gap: 100px;
+}
+.logo_bar img{
+    width: 40px;
+    height: 40px;
+    margin: 20px 0px;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.infos p, .infos h2, .infos span{
+    width: 1000px;
+    text-justify:distribute;
+}
+.infos h2{
+    font-family: Impact, sans-serif;
+    font-size: 60px;
+}
+.infos span{
+    color: rgb(27, 95, 255);
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.image_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 0px;
+    margin: 80px 0px;
+    background-color: orange;
+}
+.image_info img{
+    width: auto;
+    height: 300px;
+}
+.text .sous-titre, .text p{
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+}
+.text h2{
+    width: 500px;
+    font-family: Impact, sans-serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+.text .sous-titre{
+        font-weight: bold;
+}
+.text{
+    align-items: center;
+    width: 500px;
+    height: auto;
+    text-wrap:wrap;
+    text-justify: distribute;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.person .profile{
+    width: 200px;
+    height: auto;
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    text-justify:inter-word;
+}
+.person .profile .name{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.person .profile .profile_photo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+.person .profile p{
+    text-justify: initial;
+    text-wrap: wrap;
+    color: #fff;
+}

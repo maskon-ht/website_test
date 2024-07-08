@@ -7,19 +7,20 @@
     margin: 0;
     padding: 0;
 }
+/* navbar */
 header{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     left: 0; right: 0;
-    gap: 50px;
+    gap: 200px;
     position: fixed;
-    padding: 20px;
     z-index: 1000;
-    background-color:orange;
+    background-color:#fff;
 }
 header .logo img{
     width: auto;
+    padding: 10px;
     height: 20px;
     object-fit: cover;
 }
@@ -42,6 +43,7 @@ header .navbar a:hover{
 section{
     width: 100%;
 }
+/* En-tete image */
 .et{
     display: flex;
     justify-content: center;
@@ -90,7 +92,7 @@ section{
     padding: 75px;
     border-radius: 60px;
 }
-
+/* Logo_bar */
 .logo_bar{
     display: flex;
     justify-content: center;
@@ -102,7 +104,7 @@ section{
     height: 40px;
     margin: 20px 0px;
 }
-
+/* More info */
 .infos{
     display: flex;
     justify-content: center;
@@ -125,7 +127,7 @@ section{
     font-weight: bold;
     margin: 15px 0px;
 }
-
+/* image+infos */
 .image_info{
     width: 100%;
     display: flex;
@@ -159,7 +161,7 @@ section{
     text-wrap:wrap;
     text-justify: distribute;
 }
-
+/* Review's members */
 .person{
     display: flex;
     flex-direction: row;
@@ -194,4 +196,64 @@ section{
     text-justify: initial;
     text-wrap: wrap;
     color: #fff;
+}
+/* Elavate */
+.ad{
+    width: 100%;
+    height: auto;
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: orange;
+    text-align: center;
+}
+.ad .click_button{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.ad .click_button a{
+    background-color: rgb(27, 95, 255);
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    width: 170px;
+    height: auto;
+    font-weight: 600;
+}
+.ad .click_button .Contact{
+    background-color: transparent;
+    color:rgb(27, 95, 255);
+    border: 2px solid rgb(27, 95, 255);
+    padding: 7px;
+    width: 170px;
+}
+.ad h1{
+    font-size: 30pt;
+}
+/* Footer */
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+footer span{
+    font-size: 18pt;
+    font-weight: 600;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
